@@ -1,3 +1,4 @@
+/* Mise en forme générale */
 * {
     margin: 0px;
     padding: 0px;
@@ -18,18 +19,7 @@ p, h2, h3 {
     margin: 10px;
 }
 
-.movies p {
-    margin-left: 30px;
-}
-
-span {
-    font-size:;
-}
-
-h3 {
-    text-align: center;
-    font-weight: 500;
-}
+/* Première section, intro */
 
 #profile-pic {
     border-radius: 50%;
@@ -52,6 +42,8 @@ header {
     margin-bottom: 30px;
     max-width: 700px;
 }
+
+/* Deuxième section, liens réseaux sociaux */
 
 nav {
     background-color: white;
@@ -83,6 +75,8 @@ a {
     text-decoration: none;
 }
 
+/* Troisième section, films */
+
 article {
     background-color: white;
     display: flex;
@@ -90,6 +84,15 @@ article {
     align-items: center;
     padding: 20px;
     max-width: 700px;
+}
+
+.movies p {
+    margin-left: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
 }
 
 .bouton {
@@ -106,5 +109,65 @@ article {
 }
 
 img {
-    max-width: 90px;
+    width: 90px;
+    min-width: 90px;
+}
+
+/* Pour tablette */
+
+@media only screen and (max-width: 900px) {
+
+    header, nav, article {
+        max-width: 400px;
+    }
+
+    nav {
+        max-width: 300px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .movies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* Pour smartphone */
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        text-align: center;
+    }
+
+    header {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    article {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 30px;
+    }
+
+    nav {
+        max-width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
