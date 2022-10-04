@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Tim Berners Lee</title>
 </head>
 <body>
     <header>
-        <img src="images/tim_berners_lee.jpeg">
+        <img id="profile-pic" src="images/tim_berners_lee.jpeg">
         <h1>Tim Berners-Lee</h1>
         <h2>Inventor of HTML</h2>
         <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong>enormous scale.</strong></p>
-    <a href="">See for yourself</a>
+    <a class="bouton" href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a>
     </header>
     <nav>
         <ul>
@@ -31,19 +35,25 @@
         <h2>His favorite movies</h2>
         <div class="movies">
             <img src="images/space_odyssey.jpeg">
-            <h3>2001 - Space Odyssey</h3>
-            <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L 9000, sets of on a quest.</p>
+            <span>
+                <h3>2001 - Space Odyssey</h3>
+                <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L 9000, sets of on a quest.</p>
+            </span>
         </div>
         <div class="movies">
             <img src="images/mister_hulot.jpeg">
-            <h3>Monsieur Hulot</h3>
-            <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+            <span>
+                <h3>Monsieur Hulot</h3>
+                <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+            </span>
         </div>
         <div class="movies">
             <img src="images/alien.jpeg">
-            <h3>Alien</h3>
-            <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
-        </div>
+            <span>
+                <h3>Alien</h3>
+                <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+            </span>
+            </div>
     </article>
 </body>
 </html>

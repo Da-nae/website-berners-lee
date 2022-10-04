@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    background-color: #e7e5e5;
+    text-align: justify;
+}
+
+p, h2, h3 {
+    margin: 10px;;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #878686;
+    border-width: 3px;
+    width: 100px;
+}
+
+h1 {
+    color:rgb(196, 57, 57);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    padding: 16px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bouton {
+    background-color: rgb(221, 88, 88);
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+}
+
+img {
+    max-width: 90px;
+}
